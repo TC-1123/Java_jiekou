@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="multTread" parallel="methods" thread-count="2">
+<!--
+methods级别 所有用例都可以在不同线程下运行
+tests级别  不同的test tag的用例 用不同线程运行
+            相同的使用一个线程
+class级别   不同的class tag的用例 用不同线程运行
+            相同的使用一个线程
+
+tread-count代表最大线程数
+xml文件配置多线程  不可以指定线程池
+-->
+    <test name="Treadtest">
+        <classes>
+            <class name="com.testng.multiThread.MultiThreadOnXml"></class>
+        </classes>
+    </test>
+</suite>
