@@ -1,0 +1,38 @@
+[
+  {
+    "description": "模拟一个带cookies的请求",
+    "request": {
+      "uri": "/get/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "json": {
+        "name": "TC"
+      }
+    }
+  },
+  {
+    "description": "模拟一个带cookies的post请求",
+    "request": {
+      "uri": "/post/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "tc",
+        "age": "18"
+      }
+
+    },
+    "response": {
+      "status": 300,
+      "json": {
+        "name": "cookies-post"
+      }
+    }
+  }
+]

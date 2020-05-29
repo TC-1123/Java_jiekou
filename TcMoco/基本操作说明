@@ -1,0 +1,12 @@
+java -jar ./moco-runner-1.1.0-standalone.jar http -p 1123 -c ./start001.json
+java -jar ./moco-runner-1.1.0-standalone.jar http -p 1123 -c ./startUpGet.json
+java -jar ./moco-runner-1.1.0-standalone.jar http -p 1123 -c ./startUpPost.json
+java -jar ./moco-runner-1.1.0-standalone.jar http -p 1123 -c ./startUpCookies.json
+java -jar ./moco-runner-1.1.0-standalone.jar http -p 1123 -c ./startUpHeader.json
+
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 1123 -c ./startUpCookies.json
+
+
+java -jar moco-runner-1.1.0-standalone.jar https -p 12306 -c startUpHttps.json --https my.jks --cert 123456 --keystore 123456
+

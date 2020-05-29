@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个带header请求",
+    "request": {
+      "uri": "/post/header",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "tc",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status": 300,
+      "json": {
+        "name": "cookies-post",
+        "age": "12"
+      }
+    }
+  }
+]

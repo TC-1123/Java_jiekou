@@ -1,0 +1,32 @@
+[
+  {
+    "description":"这是一个重定向请求",
+    "request": {
+      "uri": "/reader",
+      "method": "get"
+    },
+    "redirectTo": "http://www.baidu.com"
+
+  },
+  {
+    "description": "这是重定向自己网址",
+    "request": {
+      "uri": "/redirect/re001"
+    },
+    "redirectTo": "/redirect/re002"
+  },
+  {
+    "description": "这是被重定向地址",
+    "request": {
+      "uri": "/redirect/re002"
+    },
+    "response": {
+      "json": {
+        "text": "这是一个重定向请求"
+      }
+    }
+  }
+
+
+
+]

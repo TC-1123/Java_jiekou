@@ -1,0 +1,41 @@
+[
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postDemo001",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个不带参数的post请求i"
+    }
+  },
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postDemo002",
+      "method": "post",
+      "forms": {
+        "name": "tc",
+        "age": "20"
+      }
+    },
+    "response": {
+      "text": "这是一个带参数的post请求i"
+    }
+  },
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postDemo003",
+      "method": "post",
+      "forms": {
+        "name": "tc",
+        "age": "20"
+      }
+    },
+    "response": {
+      "text": "qqqqqq"
+    }
+  }
+
+]
