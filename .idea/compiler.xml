@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Tcjavajiekou" />
+        <module name="TCExtentReport" />
+        <module name="TcTestNG" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Tcjavajiekou" target="1.5" />
+      <module name="TCExtentReport" target="1.5" />
+      <module name="TcTestNG" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_jiekou.iml" filepath="$PROJECT_DIR$/.idea/Java_jiekou.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tcjavajiekou/Tcjavajiekou.iml" filepath="$PROJECT_DIR$/Tcjavajiekou/Tcjavajiekou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCExtentReport/TCExtentReport.iml" filepath="$PROJECT_DIR$/TCExtentReport/TCExtentReport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tcjavajiekou/TcTestNG.iml" filepath="$PROJECT_DIR$/Tcjavajiekou/TcTestNG.iml" />
     </modules>
   </component>
 </project>

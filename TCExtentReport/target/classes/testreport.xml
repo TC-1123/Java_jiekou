@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="接口测试套件">
+    <test name="测试组">
+        <classes>
+            <class name="com.tester.dome.TestMethodsDemo">
+                <methods>
+                    <include name="test01"></include>
+                    <include name="test02"></include>
+                    <include name="test03"></include>
+                    <include name="logDome"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--        原有监听器   这个没有css 需要翻墙加载-->
+<!--        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>-->
+        <!--ExtentTestNGIReporterListener新建监听器-->
+        <listener class-name="com.tester.dome.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
